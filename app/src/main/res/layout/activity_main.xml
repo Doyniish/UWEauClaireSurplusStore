@@ -19,7 +19,8 @@
             android:layout_gravity="left|bottom"
             android:clickable="true"
             android:background="#ffebab1a"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:onClick="salesDatesOnClick" />
 
         <Button
             android:layout_width="142dp"
@@ -29,7 +30,8 @@
             android:layout_gravity="right|bottom"
             android:clickable="true"
             android:background="#ffebab1a"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:onClick="contactUsOnClick" />
 
         <Button
             android:layout_width="133dp"
@@ -39,7 +41,8 @@
             android:layout_gravity="center_horizontal|bottom"
             android:clickable="true"
             android:background="#ffebab1a"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:onClick="directionsOnClick" />
 
         <Button
             android:layout_width="142dp"
@@ -48,7 +51,8 @@
             android:id="@+id/button4"
             android:layout_gravity="top|center|right"
             android:background="#ffebab1a"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:onClick="rulesOnClick" />
 
         <EditText
             android:layout_width="match_parent"
@@ -69,7 +73,8 @@
             android:id="@+id/button5"
             android:layout_gravity="center_horizontal|top"
             android:background="#ffebab1a"
-            android:textColor="#ff000000" />
+            android:textColor="#ff000000"
+            android:onClick="surplusWithUsOnClick" />
 
         <Button
             android:layout_width="142dp"

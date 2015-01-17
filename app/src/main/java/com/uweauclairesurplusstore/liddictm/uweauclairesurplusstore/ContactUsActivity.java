@@ -1,24 +1,24 @@
 package com.uweauclairesurplusstore.liddictm.uweauclairesurplusstore;
 
-import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class AboutUsActivity extends ActionBarActivity {
+public class ContactUsActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_us);
+        setContentView(R.layout.activity_contact_us);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_about_us, menu);
+        getMenuInflater().inflate(R.menu.menu_contact_us, menu);
         return true;
     }
 
