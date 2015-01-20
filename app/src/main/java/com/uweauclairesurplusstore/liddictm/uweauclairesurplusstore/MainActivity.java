@@ -1,3 +1,5 @@
+//Tyler Liddicoat
+
 package com.uweauclairesurplusstore.liddictm.uweauclairesurplusstore;
 
 import android.app.Activity;
