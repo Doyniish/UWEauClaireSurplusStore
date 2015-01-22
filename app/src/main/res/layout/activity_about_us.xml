@@ -1,12 +1,140 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.uweauclairesurplusstore.liddictm.uweauclairesurplusstore.AboutUsActivity">
+<!-- Tyler Liddicoat --><!--A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff323982"
+    tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <FrameLayout
+        android:id="@+id/Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff323982">
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="#ffebab1a"
+            android:clickable="true"
+            android:onClick="salesDatesOnClick"
+            android:text="Sale Dates"
+            android:textColor="#ff000000" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:background="#ffebab1a"
+            android:clickable="true"
+            android:onClick="contactUsOnClick"
+            android:text="Contact Us"
+            android:textColor="#ff000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#ffebab1a"
+            android:clickable="true"
+            android:onClick="directionsOnClick"
+            android:text="Directions"
+            android:textColor="#ff000000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center|right"
+            android:background="#ffebab1a"
+            android:onClick="rulesOnClick"
+            android:text="Rules"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/Banner"
+            android:layout_width="match_parent"
+            android:layout_height="466dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="With an emphasis on sustainability, UW-Eau Claire’s Surplus Store, has a goal to re-purpose surplus property with an emphasis on keeping as much as possible out of the landfills. By providing an opportunity for items to be reused by other departments, by working with local non-profits, and by providing regular public sales we will meet this ambitious goal. "
+            android:textAlignment="center"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="18dp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#ffebab1a"
+            android:onClick="surplusWithUsOnClick"
+            android:text="Surplus w/ Us"
+            android:textColor="#ff000000" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:background="#ffebab1a"
+            android:onClick="aboutUsOnClick"
+            android:text="About Us"
+            android:textColor="#ff000000" />
+
+        <RelativeLayout
+            android:id="@+id/realtivelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="42dp"
+                android:background="@drawable/powerofand" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51dp"
+                android:background="@drawable/uwec" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <fragment
+        android:id="@+id/navigation_drawer"
+        android:name="com.uweauclairesurplusstore.liddictm.uweauclairesurplusstore.NavigationDrawerFragment"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

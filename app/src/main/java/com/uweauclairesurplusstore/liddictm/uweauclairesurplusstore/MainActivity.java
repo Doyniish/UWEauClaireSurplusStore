@@ -46,32 +46,32 @@ public class MainActivity extends ActionBarActivity
                 (DrawerLayout) findViewById(R.id.drawer_layout));
     }
 
-    public void aboutUsOnClick(View v){
+    public void aboutUsOnClick(View v) {
         Button aboutUs = (Button) v;
         startActivity(new Intent(getApplicationContext(), AboutUsActivity.class));
     }
 
-    public void surplusWithUsOnClick(View v){
+    public void surplusWithUsOnClick(View v) {
         Button surplusWithUs = (Button) v;
         startActivity(new Intent(getApplicationContext(), SurplusWithUsActivity.class));
     }
 
-    public void rulesOnClick(View v){
+    public void rulesOnClick(View v) {
         Button rules = (Button) v;
         startActivity(new Intent(getApplicationContext(), RulesActivity.class));
     }
 
-    public void salesDatesOnClick(View v){
+    public void salesDatesOnClick(View v) {
         Button salesDates = (Button) v;
         startActivity(new Intent(getApplicationContext(), SalesDatesActivity.class));
     }
 
-    public void directionsOnClick(View v){
+    public void directionsOnClick(View v) {
         Button directions = (Button) v;
         startActivity(new Intent(getApplicationContext(), DirectionsActivity.class));
     }
 
-    public void contactUsOnClick(View v){
+    public void contactUsOnClick(View v) {
         Button contactUs = (Button) v;
         startActivity(new Intent(getApplicationContext(), ContactUsActivity.class));
     }
@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity
                 .commit();
     }
 
-    public void onSectionAttached(int number) {
+ /*   public void onSectionAttached(int number) {
         switch (number) {
             case 1:
                 mTitle = getString(R.string.title_section1);
@@ -98,6 +98,7 @@ public class MainActivity extends ActionBarActivity
                 break;
         }
     }
+    */
 
     public void restoreActionBar() {
         ActionBar actionBar = getSupportActionBar();
@@ -167,12 +168,14 @@ public class MainActivity extends ActionBarActivity
             return rootView;
         }
 
-        @Override
+     /*   @Override
         public void onAttach(Activity activity) {
             super.onAttach(activity);
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
     }
+    */
 
+    }
 }
