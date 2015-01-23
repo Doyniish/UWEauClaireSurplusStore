@@ -172,7 +172,7 @@
                 android:id="@+id/PublicOptions"
                 android:layout_below="@+id/PublicTitle"
                 android:layout_centerHorizontal="true"
-                android:text="To Surplus and item, there are two options:"
+                android:text="To Surplus an item, there are two options:"
                 android:textStyle="italic" />
 
             <EditText
@@ -184,7 +184,8 @@
                 android:text="1: Surplus staff photographs items in establishment and lists them in our online auction. You are responsible for pickup location and loading times.  "
                 android:textStyle="bold"
                 android:textSize="16dp"
-                android:textColor="#ffffffff" />
+                android:textColor="#ffffffff"
+                android:gravity="center" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -195,7 +196,8 @@
                 android:text="2: We pick up items from establishment and sell them with our other items. We send you check of the agreed finances."
                 android:textSize="16dp"
                 android:textStyle="bold"
-                android:textColor="#ffffffff" />
+                android:textColor="#ffffffff"
+                android:gravity="center" />
 
         </RelativeLayout>
 
