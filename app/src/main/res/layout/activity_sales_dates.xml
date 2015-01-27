@@ -113,7 +113,8 @@
                 android:text="Public Sale"
                 android:id="@+id/textView"
                 android:layout_below="@+id/imageView2"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffeaaa1a" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -122,7 +123,8 @@
                 android:text="Every other Thursday"
                 android:id="@+id/textView2"
                 android:layout_below="@+id/textView"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffedb73e" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -136,7 +138,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textColor="#ffeaaa1a" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -144,10 +147,9 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Staff Reclaim"
                 android:id="@+id/textView3"
-                android:layout_below="@+id/textView10"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_marginTop="40dp" />
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffeaaa1a" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -157,7 +159,8 @@
                 android:id="@+id/textView5"
                 android:layout_below="@+id/editText"
                 android:layout_toLeftOf="@+id/textView3"
-                android:layout_toStartOf="@+id/textView3" />
+                android:layout_toStartOf="@+id/textView3"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -167,7 +170,8 @@
                 android:id="@+id/textView6"
                 android:layout_below="@+id/textView5"
                 android:layout_alignLeft="@+id/textView5"
-                android:layout_alignStart="@+id/textView5" />
+                android:layout_alignStart="@+id/textView5"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -177,7 +181,8 @@
                 android:id="@+id/textView7"
                 android:layout_below="@+id/textView6"
                 android:layout_alignLeft="@+id/textView6"
-                android:layout_alignStart="@+id/textView6" />
+                android:layout_alignStart="@+id/textView6"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -187,7 +192,8 @@
                 android:id="@+id/textView8"
                 android:layout_below="@+id/textView7"
                 android:layout_alignLeft="@+id/textView7"
-                android:layout_alignStart="@+id/textView7" />
+                android:layout_alignStart="@+id/textView7"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -197,7 +203,8 @@
                 android:id="@+id/textView9"
                 android:layout_below="@+id/textView8"
                 android:layout_alignLeft="@+id/textView8"
-                android:layout_alignStart="@+id/textView8" />
+                android:layout_alignStart="@+id/textView8"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -207,7 +214,8 @@
                 android:id="@+id/textView10"
                 android:layout_below="@+id/textView9"
                 android:layout_alignLeft="@+id/textView9"
-                android:layout_alignStart="@+id/textView9" />
+                android:layout_alignStart="@+id/textView9"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -216,7 +224,8 @@
                 android:text="Wednesdays Opposite of Public Sales"
                 android:id="@+id/textView4"
                 android:layout_below="@+id/textView3"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffeaaa1a" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -230,7 +239,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:textColor="#ffeaaa1a" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -242,7 +252,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="28dp"
-                android:layout_marginEnd="28dp" />
+                android:layout_marginEnd="28dp"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -252,7 +263,8 @@
                 android:id="@+id/textView12"
                 android:layout_below="@+id/textView11"
                 android:layout_alignLeft="@+id/textView11"
-                android:layout_alignStart="@+id/textView11" />
+                android:layout_alignStart="@+id/textView11"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -262,7 +274,8 @@
                 android:id="@+id/textView13"
                 android:layout_alignTop="@+id/textView7"
                 android:layout_alignLeft="@+id/textView12"
-                android:layout_alignStart="@+id/textView12" />
+                android:layout_alignStart="@+id/textView12"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -272,7 +285,8 @@
                 android:id="@+id/textView14"
                 android:layout_alignTop="@+id/textView8"
                 android:layout_alignLeft="@+id/textView13"
-                android:layout_alignStart="@+id/textView13" />
+                android:layout_alignStart="@+id/textView13"
+                android:textColor="#ffffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -282,7 +296,129 @@
                 android:id="@+id/textView15"
                 android:layout_alignTop="@+id/textView9"
                 android:layout_alignLeft="@+id/textView14"
-                android:layout_alignStart="@+id/textView14" />
+                android:layout_alignStart="@+id/textView14"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="February 11th &amp; 25th"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/editText2"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="March 11th &amp; 25th"
+                android:id="@+id/textView17"
+                android:layout_below="@+id/textView16"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="April 8th &amp; 22nd"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView17"
+                android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="May 6th &amp; 20th"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/textView18"
+                android:layout_alignLeft="@+id/textView18"
+                android:layout_alignStart="@+id/textView18"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="June 3rd &amp; 17th"
+                android:id="@+id/textView20"
+                android:layout_below="@+id/textView19"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="July 1st, 15th, &amp; 29th"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="August 12th &amp; 26th"
+                android:id="@+id/textView22"
+                android:layout_alignTop="@+id/textView16"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="September 9th &amp; 23rd"
+                android:id="@+id/textView23"
+                android:layout_above="@+id/textView18"
+                android:layout_alignLeft="@+id/textView22"
+                android:layout_alignStart="@+id/textView22"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="October 7th &amp; 21st"
+                android:id="@+id/textView24"
+                android:layout_alignTop="@+id/textView18"
+                android:layout_alignLeft="@+id/textView23"
+                android:layout_alignStart="@+id/textView23"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="November 4th &amp; 18th"
+                android:id="@+id/textView25"
+                android:layout_alignTop="@+id/textView19"
+                android:layout_alignLeft="@+id/textView24"
+                android:layout_alignStart="@+id/textView24"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="December 2nd &amp; 16th"
+                android:id="@+id/textView26"
+                android:layout_alignTop="@+id/textView20"
+                android:layout_alignLeft="@+id/textView25"
+                android:layout_alignStart="@+id/textView25"
+                android:textColor="#ffffffff" />
 
         </RelativeLayout>
 
