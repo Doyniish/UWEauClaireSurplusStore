@@ -68,7 +68,7 @@ public class MainActivity extends ActionBarActivity
 
     public void directionsOnClick(View v) {
         Button directions = (Button) v;
-        startActivity(new Intent(getApplicationContext(), DirectionsActivity.class));
+        startActivity(new Intent(getApplicationContext(), MapsActivity.class));
     }
 
     public void contactUsOnClick(View v) {
